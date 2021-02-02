@@ -12,12 +12,31 @@ body{
 
 }
 
+#searchBox{
+    position: absolute;
+    left: 32%;
+    top: 400px;
+    width: 550px;
+    height: 40px;
+    border-radius: 30px;
+
+
+}
+
 @media only screen and (max-width: 768px){
 
 #gLogo{
 
     left: 14%;
     top: 165px;
+}
+
+#searchBox{
+
+    left: 8%;
+    top: 300px;
+    width: 315px;
+
 }
 
 }
