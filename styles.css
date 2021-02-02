@@ -1,0 +1,23 @@
+body{
+
+    position: relative;
+}
+
+
+#gLogo{
+    
+    position: absolute;
+    left: 42%;
+    top: 270px;
+
+}
+
+@media only screen and (max-width: 768px){
+
+#gLogo{
+
+    left: 14%;
+    top: 165px;
+}
+
+}
