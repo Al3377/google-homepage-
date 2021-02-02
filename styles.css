@@ -19,7 +19,24 @@ body{
     width: 550px;
     height: 40px;
     border-radius: 30px;
+    background-color: white;
 
+
+}
+
+.buttons{
+
+    position: absolute;
+    left: 42%;
+    top: 480px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+
+}
+
+.sBtn{
 
 }
 
@@ -38,5 +55,12 @@ body{
     width: 315px;
 
 }
+.buttons{
+
+    left: 14%;
+    top: 380px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 
 }
