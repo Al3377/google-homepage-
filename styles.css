@@ -6,18 +6,18 @@ body{
 }
 
 
-ul{
+.top-navbar-list, .bottom-navbar-list{
     list-style: none;
     float: right;
 }
 
-li{
+.navbar-items, .bot-nav-itm{
     display: inline-block;
    
     
 }
 
-a{
+.navbar-links, .bot-nav-lnk {
     text-decoration: none;
     color: black;
     margin-right: 10px;
@@ -27,10 +27,10 @@ a{
 
 
 #gLogo{
-    
+    text-align: center;
     position: absolute;
-    left: 816.5px;
-    top: 200px;
+    left: 50em;
+    top: 10em;
 
 }
 
