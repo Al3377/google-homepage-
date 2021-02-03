@@ -3,4 +3,48 @@ body{
     padding: 0;
 }
 
+.navbar1{
+    width: auto;
+    height: 4em;
+    background-color: burlywood;
+}
+
+#topnav-ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.topnav-li{
+    display:inline-block;
+    padding-top: 1em;
+    margin-right: 2em;
+
+}
+.top-a{
+    text-decoration: none;
+    
+
+}
+
+#logo{
+    width: 60%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: cyan;
+    text-align: center;
+    padding-top: 10em;
+
+}
+.big1{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkcyan;
+    text-align: center;
+
+}
+
+
 
