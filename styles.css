@@ -27,7 +27,8 @@ body{
 
 
 #gLogo{
-    text-align: center;
+
+   width:auto;
     position: absolute;
     left: 50em;
     top: 10em;
