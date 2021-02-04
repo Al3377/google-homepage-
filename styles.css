@@ -6,7 +6,7 @@ body{
 .navbar1{
     width: auto;
     height: 4em;
-    background-color: burlywood;
+    
 }
 
 #topnav-ul{
@@ -24,6 +24,8 @@ body{
 }
 .top-a{
     text-decoration: none;
+    color: #6d6d6d;
+    font-size: small;
     
 
 }
@@ -83,7 +85,7 @@ input:focus {
 }
 #s-box{
     background-color: white;
-    width: 400px;
+    width: 15vw;
     height: 35px;
     padding: 0;
     border-style: none;
@@ -119,5 +121,31 @@ input:focus {
 
 }
 
+.navbar2{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height: 4em;
+    background-color: #e9e9e9;
+}
+.Lb-ul{
+    list-style: none;
+    float: left;
+
+}
+.Lb-li, .Rb-li{
+    display:inline-block;
+    padding-right: 20px;
+}
+.Lb-a, .Rb-a{
+    text-decoration: none;
+    color: #5f5e5e;
+    font-size: small;
+
+}
+
+.Rb-ul{
+    float: right;
+}
 
 
