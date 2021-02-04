@@ -45,24 +45,29 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     border-style: solid;
-    border-color: grey;
+    border-color: #ccc9c9;
     border-width: 1px;
     border-radius: 25px;
     background-color: white;
-    width: 45%;
-    height: 35px;
+    max-width: 30vw;
+    height: 40px;
     margin-left: auto;
     margin-right: auto;
+    padding-right: auto;
    
 
+}
+.big1:hover{
+    border-color: gray;
 }
 
 #searchbox{
     
     width: 480px;
     height: 35px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
    
      
 }
@@ -76,20 +81,21 @@ body{
     
 }
 #icon{
-
-    max-width:100%;
-    max-height:100%
+    padding-top: 10px;
+    width:70%;
+    height:70%
 }
 input:focus {
     outline:none;
 }
 #s-box{
     background-color: white;
-    width: 15vw;
+    width: 25vw;
     height: 35px;
     padding: 0;
     border-style: none;
     text-decoration: none;
+    font-size: x-large;
 
    
     
@@ -97,6 +103,7 @@ input:focus {
 }
 
 .buttons{
+    margin-top: 2em;
     padding-top: 1em;
     margin-left: auto;
     margin-right: auto;
@@ -107,22 +114,30 @@ input:focus {
 }
 
 .btn-a{
-
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-right: 0.8em;
     text-decoration: none;
 }
 
 .btn-inp{
     width: 150px;
-    height: 30px;
+    height: 40px;
    background-color: #f8f9fa;
-   
     border-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
+.btn-inp:hover{
+    border:solid;
+    border-color: grey;
 }
 
 .navbar2{
     position: fixed;
+    display: flex;
+    justify-content: space-between;
     bottom: 0;
     width:100%;
     height: 4em;
